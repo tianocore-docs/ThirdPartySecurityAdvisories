@@ -1,0 +1,9 @@
+{
+  "variables" : {
+    "draft"   : "yes",
+    "title"   : "Third Party Security Advisories",
+    "version" : "Version: .001.0"
+  },
+  "plugins": ["puml-aleung"],
+  "pluginsConfig": {}
+}
