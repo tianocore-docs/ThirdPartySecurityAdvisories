@@ -1,5 +1,6 @@
- README.md for Third Party Security Advisories
-  Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
+<!--- @file
+  README.md for Third Party Security Advisories
+  Copyright (c) 2022, Intel Corporation. All rights reserved.<BR>
 
   Redistribution and use in source (original document form) and 'compiled'
   forms (converted to PDF, epub, HTML and other formats) with or without
@@ -26,11 +27,6 @@
   ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -->
-
-<img src="media/TianocoreTitlePageLogo.jpg" width="300" />
-
-# ThirdPartySecurityAdvisories
-Third party component security advisories
 
 <img src="media/TianocoreTitlePageLogo.jpg" width="300" />
 
@@ -85,12 +81,12 @@ _(short form)_
 
 1. Security Bugs reported through: [National Vulnerability Database](https://nvd.nist.gov)
 2. The issue is evaluated for EDK2 exposure
-3. Determine if a Security issue affects EDK2
-4. Determine Timeline for update to Master
-5. Update third party component list fixed tag
+3. Determine Timeline for updating to Master
+4. Update third party component list fixed tag
 
 ### Revision History
 
 | Revision   | Revision History   | Date        |
 | ---------- | ------------------ | --------------- |
 | .001.0       | Initial release.<BR> Logs 1 - 9  | Jul 20, 2022  |
+| | | |
