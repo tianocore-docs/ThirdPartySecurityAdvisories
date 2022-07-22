@@ -255,7 +255,7 @@
     
       <h2>
         <div style="position:absolute;text-align:left">Third Party Security Advisories</div>
-        <div style="position:absolute;width:100%;text-align:center">DRAFT [07/20/2022 07:44:41]</div>
+        <div style="position:absolute;width:100%;text-align:center">DRAFT [07/22/2022 05:43:49]</div>
         <div style="text-align:right">Version: .001.0</div>
       </h2>  
     
@@ -302,41 +302,77 @@
 <p><img src="media/TianocoreTitlePageLogo.jpg" width="300"></p>
 <h3 id="third-party-security-advisories">Third Party Security Advisories</h3>
 <p><strong> DRAFT FOR REVIEW </strong></p>
-<p><strong> 07/20/2022 07:44:41 </strong></p>
+<p><strong> 07/22/2022 05:43:49 </strong></p>
 <p>This document will list briefings on each third party security issue found and give a description, a timeline on updating component, an acknowledgment that the solution is included in tagged release.</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Redistribution and use in source (original document form) and &apos;compiled&apos;
-forms (converted to PDF, epub, HTML and other formats) with or without
-modification, are permitted provided that the following conditions are met:</p>
-<ol>
-<li><p>Redistributions of source code (original document form) must retain the
-above copyright notice, this list of conditions and the following
-disclaimer as the first lines of this file unmodified.</p>
-</li>
-<li><p>Redistributions in compiled form (transformed to other DTDs, converted to
-PDF, epub, HTML and other formats) must reproduce the above copyright
-notice, this list of conditions and the following disclaimer in the
-documentation and/or other materials provided with the distribution.</p>
-</li>
-</ol>
-<p>THIS DOCUMENTATION IS PROVIDED BY TIANOCORE PROJECT &quot;AS IS&quot; AND ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
-EVENT SHALL TIANOCORE PROJECT  BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
-OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF
-ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-<p>Copyright (c) 2017-2022, Intel Corporation. All rights reserved.</p>
+<h3 id="acknowledgements">[Acknowledgements</h3>
+<h3 id="tldr">TLDR;</h3>
+<table>
+<thead>
+<tr>
+<th>CVE</th>
+<th>Exposure</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CVE-2021-3449 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2021-3450 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2021-3711 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2021-3712 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2021-4160 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2022-0778 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2022-1292 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2022-2068 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td>CVE-2022-2097 - OpenSSL</td>
+<td>No Exposure</td>
+<td>1.1.1j, edk2-stable202105<br> 1.1.1n, edk2-stable202205</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h3 id="process">Process</h3>
 <p><em>(short form)</em></p>
 <ol>
 <li>Security Bugs reported through: <a href="https://nvd.nist.gov" target="_blank">National Vulnerability Database</a></li>
 <li>The issue is evaluated for EDK2 exposure</li>
 <li>Determine Timeline for updating to Master</li>
-<li>Update third party component list fixed tag</li>
+<li>Update third party component list updated in version tag</li>
 </ol>
 <h3 id="revision-history">Revision History</h3>
 <table>
@@ -374,7 +410,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
     
       <h2>
         <div style="position:absolute;text-align:left">Third Party Security Advisories</div>
-        <div style="position:absolute;width:100%;text-align:center">DRAFT [07/20/2022 07:44:41]</div>
+        <div style="position:absolute;width:100%;text-align:center">DRAFT [07/22/2022 05:43:49]</div>
         <div style="text-align:right">Version: .001.0</div>
       </h2>  
     
@@ -399,7 +435,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Third Party Security Advisories","level":"1.1","depth":1,"next":{"title":"1. CVE-2021-3449 - OpenSSL","level":"1.2","depth":1,"path":"CVE-2021-3449.md","ref":"CVE-2021-3449.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"draft":"yes","title":"Third Party Security Advisories","version":"Version: .001.0"},"plugins":["puml-aleung"],"pluginsConfig":{"puml-aleung":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2022-07-20T19:43:55.588Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-20T19:44:41.033Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Third Party Security Advisories","level":"1.1","depth":1,"next":{"title":"1. CVE-2021-3449 - OpenSSL","level":"1.2","depth":1,"path":"CVE-2021-3449.md","ref":"CVE-2021-3449.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{"draft":"yes","title":"Third Party Security Advisories","version":"Version: .001.0"},"plugins":["puml-aleung"],"pluginsConfig":{"puml-aleung":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2022-07-22T17:43:18.917Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-07-22T17:43:49.837Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
