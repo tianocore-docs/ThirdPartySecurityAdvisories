@@ -28,6 +28,8 @@
 
 -->
 
+# Acknowledgements
+
 Redistribution and use in source (original document form) and 'compiled'
 forms (converted to PDF, epub, HTML and other formats) with or without
 modification, are permitted provided that the following conditions are met:
@@ -53,3 +55,4 @@ OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF
 ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Copyright (c) 2017-2022, Intel Corporation. All rights reserved.
+
