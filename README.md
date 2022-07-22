@@ -47,7 +47,7 @@
 This document will list briefings on each third party security issue found and give a description, a timeline on updating component, an acknowledgment that the solution is included in tagged release.
 
 
-### [Acknowledgements
+### [Acknowledgements](ACKNOWLEDGEMENTS.md)
 
 ### TLDR;
 
