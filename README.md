@@ -62,7 +62,7 @@ This document will list briefings on each third party security issue found and g
 | CVE-2022-1292 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
 | CVE-2022-2068 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
 | CVE-2022-2097 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| | | |
+|  |  |  |
 
 ### Process
 _(short form)_
