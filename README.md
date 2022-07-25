@@ -48,17 +48,17 @@ This document will list briefings on each third party security issue found and g
 
 ### TLDR;
 
-|           CVE           |   Exposure  |      Recommendation      |
+|           CVE           |   Exposure  |  Recommended Stable Tags |
 | ----------------------- | ----------- | ------------------------ |
-| CVE-2021-3449 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2021-3450 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2021-3711 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2021-3712 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2021-4160 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2022-0778 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2022-1292 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2022-2068 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
-| CVE-2022-2097 - OpenSSL | No Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2021-3449 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2021-3450 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2021-3711 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2021-3712 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2021-4160 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2022-0778 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2022-1292 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2022-2068 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
+| CVE-2022-2097 - OpenSSL | No cryptopkg Exposure | 1.1.1j, edk2-stable202105<BR> 1.1.1n, edk2-stable202205 |
 |  |  |  |  |
 
 ### Process
